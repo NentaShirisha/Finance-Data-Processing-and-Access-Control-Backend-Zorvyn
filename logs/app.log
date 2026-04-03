@@ -1,0 +1,233 @@
+INFO 2026-04-01 23:24:21,758 services 15912 25632 Default roles initialized
+INFO 2026-04-01 23:24:22,037 models 15912 25632 Password set for user: viewer@example.com
+INFO 2026-04-01 23:24:22,334 models 15912 25632 Password set for user: analyst@example.com
+INFO 2026-04-01 23:24:22,613 models 15912 25632 Password set for user: admin@example.com
+INFO 2026-04-01 23:24:31,600 autoreload 5816 25644 Watching for file changes with StatReloader
+INFO 2026-04-01 23:26:17,356 autoreload 22356 21456 Watching for file changes with StatReloader
+WARNING 2026-04-01 23:26:57,522 log 5816 20760 Not Found: /
+WARNING 2026-04-01 23:26:57,737 log 5816 20760 Not Found: /favicon.ico
+ERROR 2026-04-01 23:27:36,094 log 5816 20760 Internal Server Error: /api/docs/
+Traceback (most recent call last):
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\renderers.py", line 159, in render
+    template = self.resolve_template(template_names)
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\renderers.py", line 169, in resolve_template
+    return loader.select_template(template_names)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf_spectacular/swagger_ui.html
+INFO 2026-04-01 23:29:37,803 autoreload 16988 4216 Watching for file changes with StatReloader
+ERROR 2026-04-01 23:30:01,812 log 16988 19584 Internal Server Error: /api/docs/
+Traceback (most recent call last):
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\renderers.py", line 159, in render
+    template = self.resolve_template(template_names)
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\renderers.py", line 169, in resolve_template
+    return loader.select_template(template_names)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf_spectacular/swagger_ui.html
+ERROR 2026-04-01 23:30:02,617 log 16988 19584 Internal Server Error: /api/docs/
+Traceback (most recent call last):
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\renderers.py", line 159, in render
+    template = self.resolve_template(template_names)
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\renderers.py", line 169, in resolve_template
+    return loader.select_template(template_names)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf_spectacular/swagger_ui.html
+ERROR 2026-04-01 23:30:02,815 log 16988 19584 Internal Server Error: /api/docs/
+Traceback (most recent call last):
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\renderers.py", line 159, in render
+    template = self.resolve_template(template_names)
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\renderers.py", line 169, in resolve_template
+    return loader.select_template(template_names)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf_spectacular/swagger_ui.html
+ERROR 2026-04-01 23:30:03,226 log 16988 19584 Internal Server Error: /api/docs/
+Traceback (most recent call last):
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\renderers.py", line 159, in render
+    template = self.resolve_template(template_names)
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\renderers.py", line 169, in resolve_template
+    return loader.select_template(template_names)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf_spectacular/swagger_ui.html
+ERROR 2026-04-01 23:30:03,431 log 16988 19584 Internal Server Error: /api/docs/
+Traceback (most recent call last):
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\renderers.py", line 159, in render
+    template = self.resolve_template(template_names)
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\renderers.py", line 169, in resolve_template
+    return loader.select_template(template_names)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf_spectacular/swagger_ui.html
+ERROR 2026-04-01 23:30:03,828 log 16988 19584 Internal Server Error: /api/docs/
+Traceback (most recent call last):
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\renderers.py", line 159, in render
+    template = self.resolve_template(template_names)
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\renderers.py", line 169, in resolve_template
+    return loader.select_template(template_names)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf_spectacular/swagger_ui.html
+ERROR 2026-04-01 23:30:16,168 log 16988 19584 Internal Server Error: /api/docs/
+Traceback (most recent call last):
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\renderers.py", line 159, in render
+    template = self.resolve_template(template_names)
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\renderers.py", line 169, in resolve_template
+    return loader.select_template(template_names)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Siri Nenta\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf_spectacular/swagger_ui.html
+INFO 2026-04-01 23:38:12,776 autoreload 16988 4216 C:\Users\Siri Nenta\OneDrive\Desktop\ass\finance_dashboard_backend\config\settings.py changed, reloading.
+INFO 2026-04-01 23:38:14,311 autoreload 25820 26672 Watching for file changes with StatReloader
+INFO 2026-04-01 23:38:19,311 autoreload 25820 26672 C:\Users\Siri Nenta\OneDrive\Desktop\ass\finance_dashboard_backend\config\settings.py changed, reloading.
+INFO 2026-04-01 23:38:20,853 autoreload 16140 2700 Watching for file changes with StatReloader
+INFO 2026-04-01 23:38:30,227 autoreload 16140 2700 C:\Users\Siri Nenta\OneDrive\Desktop\ass\finance_dashboard_backend\config\settings.py changed, reloading.
+INFO 2026-04-01 23:38:31,683 autoreload 15156 7544 Watching for file changes with StatReloader
+INFO 2026-04-01 23:39:30,618 autoreload 8476 7980 Watching for file changes with StatReloader
+WARNING 2026-04-01 23:41:06,417 log 8476 25000 Bad Request: /api/auth/auth/login/
+WARNING 2026-04-01 23:41:24,988 log 8476 25000 Unauthorized: /api/auth/auth/verify/
+WARNING 2026-04-01 23:44:24,998 log 8476 10656 Not Found: /api/auth/login/
+INFO 2026-04-01 23:44:50,985 autoreload 8476 7980 C:\Users\Siri Nenta\OneDrive\Desktop\ass\finance_dashboard_backend\apps\users\urls.py changed, reloading.
+INFO 2026-04-01 23:44:51,665 autoreload 23512 24780 Watching for file changes with StatReloader
+INFO 2026-04-01 23:48:05,851 autoreload 22024 8876 Watching for file changes with StatReloader
+INFO 2026-04-01 23:48:25,836 jwt_handler 22024 21228 Token generated for user: 2
+INFO 2026-04-01 23:48:25,837 services 22024 21228 User authenticated: analyst@example.com
+INFO 2026-04-01 23:48:43,711 jwt_handler 22024 21228 Token generated for user: 2
+INFO 2026-04-01 23:48:43,711 services 22024 21228 User authenticated: analyst@example.com
+INFO 2026-04-02 00:07:58,335 autoreload 22024 8876 C:\Users\Siri Nenta\OneDrive\Desktop\ass\finance_dashboard_backend\apps\users\urls.py changed, reloading.
+INFO 2026-04-02 00:07:58,876 autoreload 28564 19424 Watching for file changes with StatReloader
+WARNING 2026-04-02 00:08:04,531 log 28564 20092 Not Found: /
+WARNING 2026-04-02 00:14:01,125 log 28564 27912 Not Found: /
+WARNING 2026-04-02 00:14:02,229 log 28564 27912 Not Found: /
+WARNING 2026-04-02 00:14:02,449 log 28564 27912 Not Found: /
+WARNING 2026-04-02 00:14:02,677 log 28564 27912 Not Found: /
+WARNING 2026-04-02 00:20:01,936 log 28564 28296 Not Found: /
+INFO 2026-04-03 15:29:40,900 services 10140 11412 Default roles initialized
+INFO 2026-04-03 15:29:56,998 autoreload 13588 25096 Watching for file changes with StatReloader
+INFO 2026-04-03 15:30:49,705 jwt_handler 13588 12008 Token generated for user: 1
+INFO 2026-04-03 15:30:49,706 services 13588 12008 User authenticated: viewer@example.com
+INFO 2026-04-03 15:30:50,047 jwt_handler 13588 12008 Token generated for user: 2
+INFO 2026-04-03 15:30:50,047 services 13588 12008 User authenticated: analyst@example.com
+INFO 2026-04-03 15:30:50,327 jwt_handler 13588 12008 Token generated for user: 3
+INFO 2026-04-03 15:30:50,327 services 13588 12008 User authenticated: admin@example.com
+WARNING 2026-04-03 15:30:50,341 log 13588 12008 Forbidden: /api/records/
+INFO 2026-04-03 15:30:50,399 services 13588 12008 Record created for user 2: income 1111.11
+INFO 2026-04-03 15:30:50,491 services 13588 12008 Record updated: 7
+INFO 2026-04-03 15:30:50,522 services 13588 12008 Record deleted: 7
+WARNING 2026-04-03 15:30:50,537 log 13588 12008 Not Found: /api/records/7/
+INFO 2026-04-03 15:31:14,690 jwt_handler 13588 12896 Token generated for user: 2
+INFO 2026-04-03 15:31:14,690 services 13588 12896 User authenticated: analyst@example.com
+INFO 2026-04-03 15:32:35,628 jwt_handler 13588 8348 Token generated for user: 1
+INFO 2026-04-03 15:32:35,628 services 13588 8348 User authenticated: viewer@example.com
+INFO 2026-04-03 15:32:35,920 jwt_handler 13588 18584 Token generated for user: 2
+INFO 2026-04-03 15:32:35,920 services 13588 18584 User authenticated: analyst@example.com
+INFO 2026-04-03 15:32:36,306 jwt_handler 13588 2864 Token generated for user: 3
+INFO 2026-04-03 15:32:36,306 services 13588 2864 User authenticated: admin@example.com
+WARNING 2026-04-03 15:32:36,327 log 13588 7552 Forbidden: /api/records/
+INFO 2026-04-03 15:32:36,342 services 13588 21112 Record created for user 2: income 10.00
+INFO 2026-04-03 15:32:36,361 services 13588 25844 Record deleted: 8
+WARNING 2026-04-03 15:32:36,400 log 13588 17100 Forbidden: /api/auth/users/
+WARNING 2026-04-03 15:32:36,428 log 13588 7768 Unauthorized: /api/records/
+WARNING 2026-04-03 15:32:36,475 log 13588 19996 Forbidden: /api/dashboard/summary/
+WARNING 2026-04-03 15:32:36,480 log 13588 7280 Bad Request: /api/records/
+INFO 2026-04-03 15:34:10,628 autoreload 13588 25096 C:\Users\Siri Nenta\OneDrive\Desktop\ass\finance_dashboard_backend\apps\records\views.py changed, reloading.
+INFO 2026-04-03 15:34:11,538 autoreload 23952 14676 Watching for file changes with StatReloader
+INFO 2026-04-03 15:34:13,365 autoreload 23952 14676 C:\Users\Siri Nenta\OneDrive\Desktop\ass\finance_dashboard_backend\apps\dashboard\views.py changed, reloading.
+INFO 2026-04-03 15:34:14,169 autoreload 17884 4012 Watching for file changes with StatReloader
+INFO 2026-04-03 15:34:42,819 services 23736 22140 Default roles initialized
+INFO 2026-04-03 15:34:43,979 autoreload 18132 7552 Watching for file changes with StatReloader
+INFO 2026-04-03 15:35:42,575 jwt_handler 17884 26600 Token generated for user: 1
+INFO 2026-04-03 15:35:42,575 services 17884 26600 User authenticated: viewer@example.com
+INFO 2026-04-03 15:35:42,868 jwt_handler 17884 16924 Token generated for user: 2
+INFO 2026-04-03 15:35:42,868 services 17884 16924 User authenticated: analyst@example.com
+INFO 2026-04-03 15:35:43,185 jwt_handler 17884 10780 Token generated for user: 3
+INFO 2026-04-03 15:35:43,185 services 17884 10780 User authenticated: admin@example.com
+WARNING 2026-04-03 15:35:43,206 log 17884 14724 Forbidden: /api/records/
+INFO 2026-04-03 15:35:43,237 services 17884 14124 Record created for user 2: income 10.00
+WARNING 2026-04-03 15:35:43,254 log 17884 25732 Forbidden: /api/records/9/
+INFO 2026-04-03 15:35:43,291 services 17884 22896 Record deleted: 9
+WARNING 2026-04-03 15:35:43,343 log 17884 20928 Forbidden: /api/auth/users/
+WARNING 2026-04-03 15:35:43,359 log 17884 13928 Unauthorized: /api/records/
+WARNING 2026-04-03 15:35:43,486 log 17884 13548 Bad Request: /api/records/
